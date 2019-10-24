@@ -15,7 +15,7 @@ namespace ReconocimientoFacial
 {
     class conexion
     {
-        private static OleDbConnection cnx = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=C:\Users\Isabel\Desktop\DBRostros.accdb; Persist Security Info=False");
+        private static OleDbConnection cnx = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=DBRostros.accdb;");
 
         public static string[] Nombre;
         private static byte[] Rostro;
